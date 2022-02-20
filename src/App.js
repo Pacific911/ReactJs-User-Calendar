@@ -23,25 +23,6 @@ const localizer = dateFnsLocalizer({
 	locales,
 });
 
-// const events = [
-// 	{
-// 		title: "Big Meeting",
-// 		allDay: true,
-// 		start: "Feb 11 2022",
-// 		end: "Feb 12 2022",
-// 	},
-// 	{
-// 		title: "Vacation",
-// 		start: "Feb 14 2022",
-// 		end: "Feb 15 2022",
-// 	},
-// 	{
-// 		title: "Conference",
-// 		start: "Feb 18 2022",
-// 		end: "Feb 19 2022",
-// 	},
-// ];
-
 function App() {
 	const [newEvent, setNewEvent] = useState({ title: "", start: "", end: "" });
 	const [allEvents, setAllEvents] = useState([]);
@@ -56,7 +37,12 @@ function App() {
 	}
 
 	async function handleAddEvent() {
-		
+		let calendarData = await axios.post("http://localhost:3000/calendar", {
+			title: newEvent.title,
+			allDay: true,
+			start: newEvent.start,
+			end: newEvent.end,
+        });
 		setAllEvents([...allEvents, newEvent]);
 	}
 
