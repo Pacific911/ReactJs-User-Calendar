@@ -5,8 +5,10 @@ Calendar App In React Js React Big Calendar  and json server for storing and sho
 ## Resources used
 - react js
 - json server
+- axios
 - react-big-calendar
-- react-datepicker
+- react-date picker
+- concurrently
 ## Installation
 
 you may use **Yarn** or **Npm** to initialize and install all required dependencies

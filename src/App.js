@@ -32,12 +32,12 @@ function App() {
 	}, []);
 
 	async function getEvents() {
-		let result = await axios.get("http://localhost:3000/calendar");
+		let result = await axios.get("http://localhost:3004/calendar");
 		setAllEvents(result.data);
 	}
 
 	async function handleAddEvent() {
-		let calendarData = await axios.post("http://localhost:3000/calendar", {
+		let calendarData = await axios.post("http://localhost:3004/calendar", {
 			title: newEvent.title,
 			allDay: true,
 			start: newEvent.start,
