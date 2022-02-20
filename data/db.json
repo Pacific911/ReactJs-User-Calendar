@@ -1,0 +1,32 @@
+{
+	"calendar": [
+		{
+			"title": "Big Meeting",
+			"allDay": true,
+			"start": "Feb 11 2022",
+			"end": "Feb 12 2022",
+			"id": 1
+		},
+		{
+			"title": "Vacation",
+			"allDay": true,
+			"start": "Feb 14 2022",
+			"end": "Feb 15 2022",
+			"id": 2
+		},
+		{
+			"title": "Conference",
+			"allDay": true,
+			"start": "Feb 18 2022",
+			"end": "Feb 19 2022",
+			"id": 3
+		},
+		{
+			"title": "Data Testing",
+			"allDay": true,
+			"start": "Feb 22 2022",
+			"end": "Feb 23 2022",
+			"id": 3
+		}
+	]
+}
