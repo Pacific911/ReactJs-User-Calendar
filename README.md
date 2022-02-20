@@ -20,3 +20,14 @@ you may use **Yarn** or **Npm** to initialize and install all required dependenc
 ### for npm run 
 
 `npm install` 
+
+# Contributors
+
+| [<img src="https://github.com/Pacific911.png" width="100px;"><br><sub><b>Pacific</b></sub>](https://github.com/Pacific911) | [<img src="https://github.com/PrinceNiyonshuti.png" width="100px;"><br><sub><b>Niyonshuti Prince</b></sub>](https://github.com/PrinceNiyonshuti) |
+| :------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------ |
+
+
+
+## Author
+
+Pacific
