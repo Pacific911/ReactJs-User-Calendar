@@ -1,10 +1,16 @@
-```
-Calendar App In React Js React Big Calendar
+# Calendar App In React Js
 
-```
-Run
-`yarn install` or `npm i` for Installation
-```
-```
-Run
-`npm run start` for starting development server
+Calendar App In React Js React Big Calendar  and json server for storing and show events
+
+## Installation
+
+you may use **Yarn** or **Npm** to initialize and install all required dependencies
+
+### for yarn run 
+
+`yarn install` 
+
+### for npm run 
+
+`npm install` 
+
