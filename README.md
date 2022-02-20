@@ -2,6 +2,11 @@
 
 Calendar App In React Js React Big Calendar  and json server for storing and show events
 
+## Resources used
+- react js
+- json server
+- react-big-calendar
+- react-datepicker
 ## Installation
 
 you may use **Yarn** or **Npm** to initialize and install all required dependencies
@@ -13,4 +18,3 @@ you may use **Yarn** or **Npm** to initialize and install all required dependenc
 ### for npm run 
 
 `npm install` 
-
