@@ -48,18 +48,13 @@ function App() {
 
 	return (
 		<div className="App">
-			<h1 style={{ fontfamily: "Gotham, Tahoma, sans-serif" }}>
-				User-Calendar
-			</h1>
-			<h2>Add New Event</h2>
-			<div>
-				<input
-					type="text"
-					placeholder="Add Title"
-					style={{ width: "20%", marginRight: "10px" }}
-					value={newEvent.title}
-					onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })}
-				/>
+			<div className="title">
+                <h1>User-Calendar</h1>
+            </div>
+
+			<div className="inputs">
+				<input type="text"placeholder="Add Title" style={{ width: "20%", marginRight: "10px" }} value={newEvent.title} onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })}/>
+			
 				<DatePicker
 					placeholderText="Start Date"
 					style={{ marginRight: "10px" }}

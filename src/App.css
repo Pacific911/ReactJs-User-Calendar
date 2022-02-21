@@ -1,3 +1,34 @@
 .App {
 	text-align: center;
 }
+.title{
+    font-family:Arial, Helvetica, sans-serif;
+	color:rgb(84, 84, 235);
+	width:100%;
+	height:70px;
+	background-color: #0048CC;
+	margin-bottom: 10px;
+	
+}
+.title h1{
+	color: #fff;
+	text-align: center;
+	margin-top: 13px;
+}
+h2{
+	background-color: #0048CC;
+	width: 20%;
+	float: center;
+	border-radius:3px ;
+	color: #fff;
+	font-size: 20px;
+}
+.input input{
+	width: 20%;
+	 height:20px;
+	 margin-right: 10px; 
+}
+.inputs DatePicker{
+    margin-right:10px;
+	height:20px;
+}
